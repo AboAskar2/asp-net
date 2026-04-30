@@ -1,0 +1,6 @@
+C:\Users\one touch\source\repos\WebApplication1\WebApplication1\obj\Debug\net10.0\rpswa.dswa.cache.json
+C:\Users\one touch\source\repos\WebApplication1\WebApplication1\obj\Debug\net10.0\WebApplication1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\one touch\source\repos\WebApplication1\WebApplication1\obj\Debug\net10.0\WebApplication1.AssemblyInfoInputs.cache
+C:\Users\one touch\source\repos\WebApplication1\WebApplication1\obj\Debug\net10.0\WebApplication1.AssemblyInfo.cs
+C:\Users\one touch\source\repos\WebApplication1\WebApplication1\obj\Debug\net10.0\WebApplication1.csproj.CoreCompileInputs.cache
+C:\Users\one touch\source\repos\WebApplication1\WebApplication1\obj\Debug\net10.0\WebApplication1.MvcApplicationPartsAssemblyInfo.cache

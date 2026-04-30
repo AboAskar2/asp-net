@@ -1,0 +1,25 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    
+        <title>Profile</title>
+    </head>
+        <body>
+
+            <h2>Profile Page</h2>
+            <button onclick="getProfile()">Load Profile</button>
+            <h3 id="result"></h3>
+
+
+        <script>
+                function getProfile() {
+                fetch("/profile")
+                .then(res => res.json())
+                .then(data => {
+                document.getElementById("result").innerText = data.message;
+                });
+                }
+        </script>
+</body>
+</html>

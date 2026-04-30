@@ -1,0 +1,38 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>login</title>
+</head>
+<body>
+  
+        <h2>Login</h2>
+        <input type="text" id="username" placeholder="Username"><br><br>
+        <input type="password" id="password" placeholder="Password"><br><br>
+        <button onclick="login()">Login</button>
+        <h3 id="result"></h3>
+
+        <script>
+            function login() {
+                fetch("/login", {
+                    method: "POST",
+                    headers: {
+                        "Content-Type": "application/json"
+                    },
+                    body: JSON.stringify({
+                        username: document.getElementById("username").value, 
+                        
+                            password: document.getElementById("password").value 
+                         
+                    })
+                })
+                    .then(res => res.json())
+                    .then(data => {
+                        document.getElementById("result").innerText = data.message;
+                        if (data.status == "Success") { window.location.href = "/profile.html" }
+                    })
+            }
+        </script>
+
+</body>
+</html>
